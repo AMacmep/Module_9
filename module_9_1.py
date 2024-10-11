@@ -17,7 +17,5 @@ def min(list1: int): #Переопределил встроенную функц
     return min_number
 
 
-list1 = [1, 2, -3, -6, 5, 4, ]
-
 print(apply_all_func([6, 20, 15, 9], max, min))
 print(apply_all_func([6, 20, 15, 9], len, sum, sorted))
