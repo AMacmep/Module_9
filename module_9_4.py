@@ -29,8 +29,6 @@ class MysticBall:
 
 print(result)
 
-print
-
 first_ball = MysticBall('Да', 'Нет', 'Наверное', 'Возможно', "Вероятно", "Врядли")
 print(first_ball())
 print(first_ball())
