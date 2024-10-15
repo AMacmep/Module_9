@@ -1,0 +1,14 @@
+# Домашнее задание по теме "Декораторы"
+def is_prime(funk_summ):
+    def wrapper(*args):
+        result = func_summ(*args)
+        #проверка на простое/составное
+    return wrapper
+
+@is_prime
+def sum_three(*args):
+    result = sum(args)
+    return result
+
+result = sum_three(2, 3, 6)
+print(result)
